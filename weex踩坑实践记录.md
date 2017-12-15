@@ -121,6 +121,7 @@ $ npm install -g weex-dingtalk-cli
 + iOS由于使用了同一套URL System，UIWebView的cookie是会共享到weex中的，同理weex中的cookie也是会共享的，只有WKWebView不会。原则上，你不应该使用cookie来处理用户体系的问题
 
 > weex native 与 weex web 之间的差异较大，那么怎么办？   
+
 我们提供了一套抹平一些常见差异的库，你也可以在weex环境中使用，[https://github.com/open-dingtalk/weex-dingtalk-journey](https://github.com/open-dingtalk/weex-dingtalk-journey)。   
 
 在说内存（memory）之前，大家先来看一副图，weex的内存分布：
